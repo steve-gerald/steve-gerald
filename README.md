@@ -14,9 +14,14 @@
 </p>
 
 ## 🚀 About Me 
-I'm a data analyst passionate about helping businesses make sense of their data. I enjoy transforming complex, messy datasets into clear stories and actionable insights.
+Actuary and member of the Institute of Actuaries in Belgium (IABE), graduated from UCLouvain (MSc in Actuarial Sciences). I combine strong mathematical foundations with a business-oriented mindset to turn complex risk questions into clear, actionable insights.
 
-My focus is on building dashboards that get used, automating repetitive tasks to free up teams for more interesting problems, and creating models that help businesses plan for the future.
+My areas of expertise include risk modelling, pricing, technical reserving, and reporting under Solvency II and IFRS 17. I am equally comfortable working on the first line (data-driven pricing, claims and policy analysis, simulations and provisions, KPI reporting) and on the second line (Business Risk & Controls, operational risk, control inventories, incident and error analysis, lessons learned, findings lifecycle, process reviews and continuous improvement).
+
+I work fluently with Excel/VBA, Python, R, SQL and Power BI, and I value clear communication: translating technical outputs into decisions that stakeholders — whether business teams, management or regulators — can trust and act upon.
+
+
+Based in Belgium, open to opportunities in actuarial science, risk management and data-driven insurance roles.
 
 When I'm not working with data, I enjoy [Your Hobby or Passion, e.g., creating content, hiking, mentoring others, etc.]. I love the "aha!" moment when data reveals something new and useful.
 
