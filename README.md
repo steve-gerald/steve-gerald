@@ -18,7 +18,7 @@ Actuary and member of the Institute of Actuaries in Belgium (IABE), graduated fr
 
 My areas of expertise include risk modelling, pricing, technical reserving, and reporting under Solvency II and IFRS 17. I am equally comfortable working on the first line (data-driven pricing, claims and policy analysis, simulations and provisions, KPI reporting) and on the second line (Business Risk & Controls, operational risk, control inventories, incident and error analysis, lessons learned, findings lifecycle, process reviews and continuous improvement).
 
-I work fluently with Excel/VBA, Python, R, SQL and Power BI, and I value clear communication: translating technical outputs into decisions that stakeholders — whether business teams, management or regulators — can trust and act upon.
+I work fluently with Excel/VBA, Python, R, SQL and Power BI, and I value clear communication: translating technical outputs into decisions that stakeholders  whether business teams, management or regulators — can trust and act upon.
 
 
 Based in Belgium, open to opportunities in actuarial science, risk management and data-driven insurance roles.
@@ -26,7 +26,7 @@ Based in Belgium, open to opportunities in actuarial science, risk management an
 When I'm not working with data, I enjoy [Your Hobby or Passion, e.g., creating content, hiking, mentoring others, etc.]. I love the "aha!" moment when data reveals something new and useful.
 
 <!-- 🌐 Replace "your-username" with your actual GitHub username -->
-### [🏆 Check Out My Full Portfolio Website](https://your-username.github.io/)
+### [🏆 Check Out My Full Portfolio Website](https://steve-gerald.github.io/)
       
 ## 🔭 What I'm Currently Working On 
 
