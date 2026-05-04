@@ -29,7 +29,7 @@ When I'm not working with data, I enjoy [Your Hobby or Passion, e.g., creating c
       
 ## 🔭 What I'm Currently Working On 
 
-- **Project A:** [Brief, one-line description of a project, e.g., Building a sales forecasting model in Python.]  
+- **Project A:**,  **Tarification stochastique de rentes viagères différées** — Modélisation conjointe du risque de taux et de mortalité (corrélation négative) via Monte Carlo, avec recommandations opérationnelles pour assureurs sous Solvabilité II. Python, UCLouvain 2024. 
 - **Project B:** [Brief, one-line description of another project, e.g., Creating an interactive marketing dashboard in Power BI.]
 - **Content Creation:** [e.g., Developing new tutorials on data visualization for my YouTube channel.]
 
