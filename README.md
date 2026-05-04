@@ -17,12 +17,12 @@ Actuary and member of the Institute of Actuaries in Belgium (IABE), graduated fr
 
 My areas of work include risk modelling, pricing, technical reserving, and reporting under Solvency II and IFRS 17. I am equally comfortable working on the first line (data-driven pricing, claims and policy analysis, simulations and provisions, KPI reporting) and on the second line (Business Risk & Controls, operational risk, control inventories).
 
-I work  with Excel/VBA, Python, R, SQL and Power BI, and I value clear communication: translating technical outputs into decisions that stakeholders  whether business teams, management or regulators — can trust and act upon.
+I work  with Excel/VBA, Python, R, SQL and Power BI, and I value clear communication: translating technical outputs into decisions that stakeholders  whether business teams, management or regulators, can trust and act upon.
 
 
 Based in Belgium, open to opportunities in actuarial science, risk management and data-driven insurance roles.
 
-When I'm not working with data, I enjoy building personal analytics projects — exploring open datasets to uncover patterns that connect statistics with real-world behaviour. I'm also passionate about strategic board games and probabilistic puzzles, which keep my probabilistic intuition sharp in a playful way. I love sharing knowledge through content creation on actuarial topics — making risk and statistics accessible and engaging for broader audiences. And I still get that "aha!" moment every time data reveals something new and useful. 
+When I'm not working with data, I enjoy building personal analytics projects, exploring open datasets to uncover patterns that connect statistics with real-world behaviour. I'm also passionate about strategic board games and probabilistic puzzles, which keep my probabilistic intuition sharp in a playful way. I love sharing knowledge through content creation on actuarial topics,  making risk and statistics accessible and engaging for broader audiences. And I still get that "aha!" moment every time data reveals something new and useful. 
 
 
 <!-- 🌐 Replace "your-username" with your actual GitHub username -->
