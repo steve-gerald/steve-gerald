@@ -25,7 +25,7 @@ Based in Belgium, open to opportunities in actuarial science, risk management an
 When I'm not working with data, I enjoy [Your Hobby or Passion, e.g., creating content, hiking, mentoring others, etc.]. I love the "aha!" moment when data reveals something new and useful.
 
 <!-- 🌐 Replace "your-username" with your actual GitHub username -->
-### [🏆 Check Out My Full Portfolio Website](https://steve-gerald.github.io/)
+### [🏆 Check Out My Full Portfolio Website](https://steve-gerald.github.io/mon_portfolio/)
       
 ## 🔭 What I'm Currently Working On 
 
