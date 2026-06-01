@@ -30,7 +30,7 @@ When I'm not working with data, I enjoy building personal analytics projects, ex
       
 ## 🔭 What I'm Currently Working On 
 
-- **Project A:**,  **Tarification stochastique de rentes viagères différées** — Modélisation conjointe du risque de taux et de mortalité (corrélation négative) via Monte Carlo, avec recommandations opérationnelles pour assureurs sous Solvabilité II. Python, UCLouvain 2024. 
+- **Project A:**,  **[Tarification stochastique de rentes viagères différées](https://github.com/steve-gerald/dla-longevity-pricing)** — Modélisation conjointe du risque de taux et de mortalité (corrélation négative) via Monte Carlo, avec recommandations opérationnelles pour assureurs sous Solvabilité II. Python, UCLouvain 2024. 
 - **Project B:**  **[Tarification d'un traité XL Motor Third Party Liability](https://github.com/steve-gerald/reassurance-xl-mtpl-pricing)** — Burning Cost avec clause de stabilité (indexation par paiement), validation Chain-Ladder des charges ultimes, modélisation Pareto/GPD de la sévérité, construction de la prime commerciale (chargement de sécurité k·σ + coût du capital + frais). Livrables : scripts Python, classeur Excel récapitulatif et rapport Word académique. Python, UCLouvain 2024.
 - **Project C:** **[Closing actuariel & suivi des risques techniques](https://github.com/steve-gerald/closing-actuariel)** — Pipeline complet de clôture actuarielle non-vie sur un portefeuille MTPL simulé : provisionnement stochastique, reporting et suivi des risques. Livrables : scripts Python (pipeline, reserving, tests), classeur Excel de pilotage et présentation. Python, 2025.
 - **Content Creation:** Vulgarisation de sujets actuariels (risque, provisionnement, statistiques) pour rendre ces notions accessibles à un public plus large.
