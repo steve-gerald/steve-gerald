@@ -33,6 +33,7 @@ When I'm not working with data, I enjoy building personal analytics projects, ex
 - **Project A:**,  **[Tarification stochastique de rentes viagères différées](https://github.com/steve-gerald/dla-longevity-pricing)** — Modélisation conjointe du risque de taux et de mortalité (corrélation négative) via Monte Carlo, avec recommandations opérationnelles pour assureurs sous Solvabilité II. Python, UCLouvain 2024. 
 - **Project B:**  **[Tarification d'un traité XL Motor Third Party Liability](https://github.com/steve-gerald/reassurance-xl-mtpl-pricing)** — Burning Cost avec clause de stabilité (indexation par paiement), validation Chain-Ladder des charges ultimes, modélisation Pareto/GPD de la sévérité, construction de la prime commerciale (chargement de sécurité k·σ + coût du capital + frais). Livrables : scripts Python, classeur Excel récapitulatif et rapport Word académique. Python, UCLouvain 2024.
 - **Project C:** **[Closing actuariel & suivi des risques techniques](https://github.com/steve-gerald/closing-actuariel)** — Pipeline complet de clôture actuarielle non-vie sur un portefeuille MTPL simulé : provisionnement stochastique, reporting et suivi des risques. Livrables : scripts Python (pipeline, reserving, tests), classeur Excel de pilotage et présentation. Python, 2025.
+- **Project D:** **[Scoring de Confiance](https://github.com/steve-gerald/scoring-confiance)** — Système complet de scoring de confiance : génération de données synthétiques, modélisation ML (Random Forest, XGBoost), benchmark multi-modèles, calibration des seuils et tarification commerciale. Livrables : scripts Python modulaires, noyau de scoring et rapport. Python, 2026.
 - **Content Creation:** Vulgarisation de sujets actuariels (risque, provisionnement, statistiques) pour rendre ces notions accessibles à un public plus large.
 
 ## 🌱 Currently Learning 
@@ -48,19 +49,3 @@ When I'm not working with data, I enjoy building personal analytics projects, ex
   <!-- 💡 Go to Shields.io to create your own badges -->
   <img src="https://img.shields.io/badge/SQL-Intermediate-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Skill Badge">
   <img src="https://img.shields.io/badge/Excel-Intermediate-217346?style=flat&logo=microsoft-excel&logoColor=white" alt="Excel Skill Badge">
-  <img src="https://img.shields.io/badge/Tableau-Intermediate-E97627?style=flat&logo=tableau&logoColor=white" alt="Tableau Skill Badge">
-</p>
-
-#### Programming & Automation
-<p>
-  <img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat&logo=python&logoColor=white" alt="Python Skill Badge">
-  <img src="https://img.shields.io/badge/R-Intermediate-276DC3?style=flat&logo=r&logoColor=white" alt="R Skill Badge">
-</p>
-
-#### Business Intelligence & Analytics
-<p>
-  <img src="https://img.shields.io/badge/A%2FB%20Testing-Intermediate-FF6B6B?style=flat" alt="A/B Testing Skill Badge">
-  <img src="https://img.shields.io/badge/Statistical%20Analysis-Intermediate-4ECDC4?style=flat" alt="Statistical Analysis Skill Badge">
-  <img src="https://img.shields.io/badge/Predictive%20Modeling-Intermediate-45B7D1?style=flat" alt="Predictive Modeling Skill Badge">
-  <img src="https://img.shields.io/badge/KPI%20Development-Intermediate-96CEB4?style=flat" alt="KPI Development Skill Badge">
-</p>
