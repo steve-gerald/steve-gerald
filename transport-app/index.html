@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mziba Community - Transport de colis</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <div class="logo-icon">✈️</div>
+        <div>
+          <h1>Mziba Community</h1>
+          <span>Transport de colis entre voyageurs</span>
+        </div>
+      </div>
+      <button class="btn-primary" onclick="showPage('create')">+ Nouvelle annonce</button>
+    </div>
+  </header>
+
+  <!-- Page: Liste des annonces -->
+  <div id="page-list" class="page active">
+    <div class="container">
+      <div class="page-title">
+        <h2>Annonces de transport</h2>
+        <p>Trouvez un voyageur pour envoyer vos colis</p>
+      </div>
+
+      <!-- Filtres -->
+      <div class="filters">
+        <input type="text" id="filter-depart" placeholder="Ville de départ" oninput="filterAnnonces()" />
+        <input type="text" id="filter-arrivee" placeholder="Ville d'arrivée" oninput="filterAnnonces()" />
+        <input type="date" id="filter-date" oninput="filterAnnonces()" />
+        <button class="btn-outline" onclick="clearFilters()">Effacer</button>
+      </div>
+
+      <!-- Liste -->
+      <div id="annonces-list" class="annonces-grid"></div>
+      <div id="empty-state" class="empty-state hidden">
+        <div class="empty-icon">📦</div>
+        <p>Aucune annonce trouvée</p>
+        <button class="btn-primary" onclick="showPage('create')">Créer une annonce</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page: Créer une annonce -->
+  <div id="page-create" class="page">
+    <div class="container">
+      <button class="back-btn" onclick="showPage('list')">← Retour</button>
+      <h2 class="page-title-text">Créer une annonce</h2>
+
+      <form id="form-create" class="form-card" onsubmit="createAnnonce(event)">
+
+        <div class="form-section">
+          <h3>Informations de vol</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Ville de départ</label>
+              <input type="text" id="f-depart" placeholder="Ex: Douala-CM" required />
+            </div>
+            <div class="form-group">
+              <label>Ville d'arrivée</label>
+              <input type="text" id="f-arrivee" placeholder="Ex: Lyon-FR" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Date de départ</label>
+              <input type="datetime-local" id="f-date" required />
+            </div>
+            <div class="form-group">
+              <label>Durée du vol</label>
+              <input type="text" id="f-duree" placeholder="Ex: 16h 0min" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Compagnie aérienne</label>
+              <input type="text" id="f-compagnie" placeholder="Ex: Air France" />
+            </div>
+            <div class="form-group">
+              <label>Type de vol</label>
+              <select id="f-escales">
+                <option value="Vol direct">Vol direct</option>
+                <option value="1 escale">1 escale</option>
+                <option value="2 escales">2 escales</option>
+                <option value="3+ escales">3+ escales</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Offre de transport</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Prix par kg (€)</label>
+              <input type="number" id="f-prix" placeholder="Ex: 11" min="0" step="0.5" required />
+            </div>
+            <div class="form-group">
+              <label>Poids disponible (kg)</label>
+              <input type="number" id="f-poids" placeholder="Ex: 20" min="0" step="0.5" required />
+            </div>
+          </div>
+          <div class="form-group full">
+            <label>Message / Description</label>
+            <textarea id="f-message" rows="3" placeholder="Ex: Départ imminent, faites vos réservations maintenant !"></textarea>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3>Contact</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Votre nom</label>
+              <input type="text" id="f-nom" placeholder="Ex: Marie D." required />
+            </div>
+            <div class="form-group">
+              <label>WhatsApp / Téléphone</label>
+              <input type="text" id="f-contact" placeholder="Ex: +33 6 00 00 00 00" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn-outline" onclick="showPage('list')">Annuler</button>
+          <button type="submit" class="btn-primary">Publier l'annonce</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Page: Détail d'une annonce -->
+  <div id="page-detail" class="page">
+    <div class="container">
+      <button class="back-btn" onclick="showPage('list')">← Retour aux annonces</button>
+      <div id="detail-content"></div>
+    </div>
+  </div>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
